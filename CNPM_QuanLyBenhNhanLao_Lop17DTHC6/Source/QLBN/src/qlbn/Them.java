@@ -267,11 +267,6 @@ public class Them extends javax.swing.JFrame {
 
         cbxloaibenhnhan.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         cbxloaibenhnhan.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Mới", "Tái phát", "Kháng thuốc", "Trẻ em" }));
-        cbxloaibenhnhan.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                cbxloaibenhnhanActionPerformed(evt);
-            }
-        });
         getContentPane().add(cbxloaibenhnhan, new org.netbeans.lib.awtextra.AbsoluteConstraints(238, 222, 159, 33));
 
         cbbcannang.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "< 39", "40 -> 55", "56 -> 70", "> 70" }));
@@ -445,10 +440,6 @@ public class Them extends javax.swing.JFrame {
         // TODO add your handling code here:
 //        this.setVisible(false);
     }//GEN-LAST:event_formWindowClosed
-
-    private void cbxloaibenhnhanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cbxloaibenhnhanActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_cbxloaibenhnhanActionPerformed
 
     /**
      * @param args the command line arguments

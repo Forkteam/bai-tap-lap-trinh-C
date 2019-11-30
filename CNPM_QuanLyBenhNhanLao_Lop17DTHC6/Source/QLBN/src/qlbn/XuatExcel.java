@@ -66,7 +66,7 @@ public class XuatExcel extends javax.swing.JFrame {
 
             },
             new String [] {
-                "MÃ BN", "TÊN BN", "TUỔI", "ĐỊA CHỈ", "GIỚI TÍNH", "LOẠI BN", "CÂN NẶNG", "LOẠI THUỐC", "SỐ LƯỢNG"
+                "MABN", "TENBN", "TUỔI", "DIACHI", "GIOITINH", "LOAIBN", "SOKY", "LOẠI THUỐC", "SOLUONG"
             }
         ) {
             Class[] types = new Class [] {
@@ -108,9 +108,9 @@ public class XuatExcel extends javax.swing.JFrame {
         });
         getContentPane().add(btnXuatExcel, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 610, 120, 40));
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
-        jLabel1.setText("BÁO CÁO TỔNG HỢP");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 20, 377, 43));
+        jLabel1.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel1.setText("BẢNG QUYẾT TOÁN THUỐC LAO");
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(484, 11, 377, 43));
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel2.setText("Ngày..........Tháng............Năm............");

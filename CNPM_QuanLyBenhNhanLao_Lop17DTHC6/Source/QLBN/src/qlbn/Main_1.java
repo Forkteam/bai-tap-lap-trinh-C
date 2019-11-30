@@ -51,7 +51,7 @@ public class Main_1 extends javax.swing.JFrame {
         getContentPane().add(btnThemThongTinBenhNhanLao, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, 280, 110));
 
         btnTimKiemThongTin.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        btnTimKiemThongTin.setIcon(new javax.swing.ImageIcon(getClass().getResource("/qlbn/icontimxoasua.png"))); // NOI18N
+        btnTimKiemThongTin.setIcon(new javax.swing.ImageIcon("C:\\Users\\Tien Nguyen\\Desktop\\QLBN\\src\\qlbn\\icontimxoasua.png")); // NOI18N
         btnTimKiemThongTin.setText("TÌM KIẾM - SỬA - XOÁ  THÔNG TIN ");
         btnTimKiemThongTin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -62,7 +62,7 @@ public class Main_1 extends javax.swing.JFrame {
 
         btnThongTinSanPham.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         btnThongTinSanPham.setIcon(new javax.swing.ImageIcon(getClass().getResource("/qlbn/iconquestion.png"))); // NOI18N
-        btnThongTinSanPham.setText("QUẢN LÝ CẤP PHÁT THUỐC");
+        btnThongTinSanPham.setText("THÔNG TIN VỀ PHẦN MỀM");
         btnThongTinSanPham.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnThongTinSanPhamActionPerformed(evt);
@@ -72,7 +72,7 @@ public class Main_1 extends javax.swing.JFrame {
 
         btnXuatExcel.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         btnXuatExcel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/qlbn/iconexcel.png"))); // NOI18N
-        btnXuatExcel.setText("XUẤT BÁO CÁO");
+        btnXuatExcel.setText("XUẤT EXCEL");
         btnXuatExcel.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnXuatExcelActionPerformed(evt);
@@ -82,7 +82,7 @@ public class Main_1 extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(0, 102, 102));
-        jLabel1.setText("PHẦN MỀM QUẢN LÝ BỆNH NHÂN LAO");
+        jLabel1.setText("PHẦN MỀM QUẢN LÝ BỆNH NHÂNH LAO");
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 20, 480, 40));
 
         jLabel3.setText("jLabel3");

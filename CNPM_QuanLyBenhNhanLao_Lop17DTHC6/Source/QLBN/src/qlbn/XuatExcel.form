@@ -58,15 +58,15 @@
           <Properties>
             <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
               <Table columnCount="9" rowCount="0">
-                <Column editable="true" title="M&#xc3; BN" type="java.lang.String"/>
-                <Column editable="true" title="T&#xca;N BN" type="java.lang.String"/>
+                <Column editable="true" title="MABN" type="java.lang.String"/>
+                <Column editable="true" title="TENBN" type="java.lang.String"/>
                 <Column editable="true" title="TU&#x1ed4;I" type="java.lang.Integer"/>
-                <Column editable="true" title="&#x110;&#x1eca;A CH&#x1ec8;" type="java.lang.String"/>
-                <Column editable="true" title="GI&#x1eda;I T&#xcd;NH" type="java.lang.String"/>
-                <Column editable="true" title="LO&#x1ea0;I BN" type="java.lang.String"/>
-                <Column editable="true" title="C&#xc2;N N&#x1eb6;NG" type="java.lang.String"/>
+                <Column editable="true" title="DIACHI" type="java.lang.String"/>
+                <Column editable="true" title="GIOITINH" type="java.lang.String"/>
+                <Column editable="true" title="LOAIBN" type="java.lang.String"/>
+                <Column editable="true" title="SOKY" type="java.lang.String"/>
                 <Column editable="true" title="LO&#x1ea0;I THU&#x1ed0;C" type="java.lang.String"/>
-                <Column editable="true" title="S&#x1ed0; L&#x1af;&#x1ee2;NG" type="java.lang.Integer"/>
+                <Column editable="true" title="SOLUONG" type="java.lang.Integer"/>
               </Table>
             </Property>
             <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
@@ -151,13 +151,13 @@
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="36" style="1"/>
+          <Font name="Tahoma" size="24" style="0"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="B&#xc1;O C&#xc1;O T&#x1ed4;NG H&#x1ee2;P"/>
+        <Property name="text" type="java.lang.String" value="B&#x1ea2;NG QUY&#x1ebe;T TO&#xc1;N THU&#x1ed0;C LAO"/>
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="480" y="20" width="377" height="43"/>
+          <AbsoluteConstraints x="484" y="11" width="377" height="43"/>
         </Constraint>
       </Constraints>
     </Component>
